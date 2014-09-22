@@ -39,13 +39,15 @@
 
 <div id="container">
 	<div id="header">
-		<div id="logo">
-			<a href="/"><img src="/static/images/logo.jpg" alt="[% meta.title || 'ShinySite' %]"></a>
-		</div>
-	
 		<div id="tagline">
 			[% shared_content.site_tagline %]
 		</div>
+
+<!-- WBRASWELL 20140922: add First Class Anchor in header aligned with tagline on all pages -->
+		<div id="first_class_anchor">
+			<a href="/"><img src="/static/cms-uploads/images/first_class_anchor_transparent_scaled.png" alt="[% meta.title || 'first_class_anchor' %]"></a>
+		</div>
+	
 	</div>
 	
 	<div id="content">
@@ -53,6 +55,12 @@
 		[%- IF status_msg %]<div class="status">[% status_msg %]</div>[% END %]
 		
 		[%- content %]
+
+<!-- WBRASWELL 20140922: add montage image just above page footer on all pages -->
+		<div id="footer_montage">
+			<a href="/"><img src="/static/cms-uploads/images/cjohnson_2014-footer_montage.png" alt="[% meta.title || 'footer_montage' %]"></a>
+		</div>
+	
 	</div>
 	<div class="clearfix">&nbsp;</div>
 </div>

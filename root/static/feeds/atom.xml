@@ -1,72 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:shiny.cms,2010:blog</id>
-  <link rel="self" href="http://shiny.cms:3000/static/feeds/atom.xml" type="application/atom+xml"/>
-  <link rel="alternate" href="http://shiny.cms:3000/blog" type="text/html"/>
-  <updated>2010-08-21T21:58:43Z</updated>
-  <title>ShinySite</title>
-  <subtitle>Recent blog posts from ShinySite</subtitle>
+  <id>tag:shacseascouts.org,2010:blog</id>
+  <link rel="self" href="http://autoparallel.com:3000/static/feeds/atom.xml" type="application/atom+xml"/>
+  <link rel="alternate" href="http://autoparallel.com:3000/blog" type="text/html"/>
+  <updated>2014-09-22T09:54:20Z</updated>
+  <title>SHAC_SeaScouts</title>
+  <subtitle>Recent blog posts from SHAC_SeaScouts</subtitle>
   <entry>
-    <id>tag:shiny.cms,2010:blog:2009:5:hmmm-content</id>
-    <link rel="alternate" href="http://shiny.cms:3000/blog/2009/5/hmmm-content" type="text/html"/>
+    <id>tag:shacseascouts.org,2010:blog:2014:8:fleet_mtg_min-_20140820</id>
+    <link rel="alternate" href="http://autoparallel.com:3000/blog/2014/8/fleet_mtg_min-_20140820" type="text/html"/>
     <author>
-      <name>Helen</name>
+      <name>Cassie Johnson</name>
     </author>
-    <updated>2009-05-04T03:02:01Z</updated>
-    <title>Hmmm, content?</title>
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml"><p>
-	Blog body...</p>
-</div>
-    </content>
-  </entry>
-  <entry>
-    <id>tag:shiny.cms,2010:blog:2009:3:portman</id>
-    <link rel="alternate" href="http://shiny.cms:3000/blog/2009/3/portman" type="text/html"/>
-    <author>
-      <name>Denny</name>
-    </author>
-    <updated>2009-03-03T03:03:03Z</updated>
-    <title>Portman!!!</title>
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">Blog body...</div>
-    </content>
-  </entry>
-  <entry>
-    <id>tag:shiny.cms,2010:blog:2009:2:hot-grits</id>
-    <link rel="alternate" href="http://shiny.cms:3000/blog/2009/2/hot-grits" type="text/html"/>
-    <author>
-      <name>Denny</name>
-    </author>
-    <updated>2009-02-02T02:02:02Z</updated>
-    <title>Hot Grits!!</title>
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">Blog body...</div>
-    </content>
-  </entry>
-  <entry>
-    <id>tag:shiny.cms,2010:blog:2009:1:mmmm-content</id>
-    <link rel="alternate" href="http://shiny.cms:3000/blog/2009/1/mmmm-content" type="text/html"/>
-    <author>
-      <name>Helen</name>
-    </author>
-    <updated>2009-01-02T03:04:05Z</updated>
-    <title>Mmmm, content!</title>
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">Blog body...</div>
-    </content>
-  </entry>
-  <entry>
-    <id>tag:shiny.cms,2010:blog:2009:1:first-post</id>
-    <link rel="alternate" href="http://shiny.cms:3000/blog/2009/1/first-post" type="text/html"/>
-    <author>
-      <name>Denny</name>
-    </author>
-    <updated>2009-01-01T01:01:01Z</updated>
-    <title>First Post!</title>
-    <content type="xhtml">
-      <div xmlns="http://www.w3.org/1999/xhtml">We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness. — That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed, — That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness.</div>
-    </content>
+    <updated>2014-08-20T22:00:00Z</updated>
+    <title>Fleet Meeting Minutes 8/20/2014</title>
+    <content type="html">&lt;p align="center" style="margin:0in 0in 6pt;text-align:center;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;span style="font-size:20px;"&gt;&lt;b&gt;&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif"&gt;&lt;img alt="" src="/static/cms-uploads/images/cjohnson_2014-fleet_mtg_mins_2014_sidebar.png" style="width: 286px; height: 639px; float: left;" /&gt;SHAC SEA SCOUT FLEET MEETING MINUTES 8/20/14&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;PRESENT:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Wilson, Ready, Dougherty, Sexton, Plante, Valdes, Noser, Sunker, Hunn, Crowl, Gower, Leavitt, Lipham, Cushman, Freas, Houghton, Johnson, Walker, Knapp, Mowad, McKee, Boatswain Alex of Ship 24.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;WELCOME:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; To new Sea Scouter, but old Scouter Lynn McKee who has joined Ship 846 as a mate and Boatswain Alex of Ship 24 who was standing in for the Skipper.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;MINUTES OF THE PREVIOUS MEETING:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; It had been so long with so many miles behind many of us that no one remembered any issues.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;SAFETY:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Bart was back from the Caribbean, and filled us in on the details of their MOB experience, but said it went like a smooth drill. He suggested periodic check of LifeSlings to inspect for line and flotation condition. Still have some 2014 VSC&amp;#39;s needed at Southshore Harbor. Also discussed were the standards for crew on boats of various sizes and the capacity for boats. We were informed that the formula was Length X Width/15 which puts the capacity of&lt;span&gt; &lt;/span&gt;&lt;b&gt;&lt;i&gt;Scout&lt;/i&gt;&lt;/b&gt;&lt;span&gt; &lt;/span&gt;at 19, (just for the record Skipper Crowl.)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;TRAINING:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Chris Leavitt is offering to put on a quarterly Texas Boater&amp;#39;s Ed course. Ship 502 offered to host one at Foundry Methodist. Some possible Crisis Afloat course days are September 20, or October 25.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;MARKETING AND PUBLICITY: SSALBT&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; will be online pretty soon. For recruiting and getting your name out there, check out BeaScout.org where you can input your Ship or unit and you will show up in searches of people looking for a unit. Publicity cards were again discussed and maybe there will be some progress next month.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;BOATS AND GEAR:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Marcus would like to get your bottom paint or other marine paint needs for the coming year so we can get a pallet from Interlux. Best bottom job prices are usually from O.J. Marine, 713 828 1449. A Hobie 16 in reasonably good condition with trailer is available. Try&lt;span&gt; &lt;/span&gt;&lt;a href="mailto:Kyle16@gmail.com" target="_blank"&gt;&lt;span style="color:purple"&gt;Kyle16@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span&gt; &lt;/span&gt;if you are interested. A Gulf Coast 20 at Conroe Yacht Club is available as is an O&amp;#39;Day Javelin. Contact Bart. Ship 1996 has a Lugar for those who want a project. Lugars are safe on most stock ponds under an acre.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;b&gt;&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif" size="3"&gt;PROGRAM:&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;MINTO:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; September 5-7. The link to Doubleknot is up:&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;u&gt;&lt;span style="color:navy"&gt;&lt;a href="http://samhoustonbsa.doubleknot.com/event/2014-sea-scout-minto-rendezvous/1577201" rel="nofollow" target="_blank"&gt;&lt;span style="color:purple"&gt;http://samhoustonbsa.doubleknot.com/event/2014-sea-scout-minto-rendezvous/1577201&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/u&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif" size="3"&gt;T.W. Cook will be stepping in to officiate this year. Volunteers were signed up for all events. See the attached list.&lt;span&gt; &lt;/span&gt;&lt;b&gt;Not mentioned at the meeting, but to be included at the cracker barrel, is the Talent Show. See the letter attached.&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;SAFETY AT SEA:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Now set for November 8, with a cost of $20 to included lunch and T Shirt.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif" size="3"&gt;&lt;a href="http://www.bacbsa.org/sea-scout-base/-events-2014/safety-at-sea-2014/56373" rel="nofollow" target="_blank"&gt;&lt;span style="color:purple"&gt;http://www.bacbsa.org/sea-scout-base/-events-2014/safety-at-sea-2014/56373&lt;/span&gt;&lt;/a&gt;&lt;span&gt; &lt;/span&gt;They have a tab set up specifically for SHAC youth.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;FALL REGATTA:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; October 18 at Duessen Park. This year will be BYO lunch and no cost. We have one and maybe two chase boats committed so far.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;b&gt;&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif" size="3"&gt;OTHER BUSINESS:&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;SEA SCHOOL:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Now set for November 1 and 2 and back at Lakewood Yacht Club with accommodations set for the nearby LaQuinta (around $104 per person at double occupancy) or on a boat for $0.0 if you have access. $80 tuition and $7.50 for lunch each day. Registration is at&lt;a href="http://www.uspshouston.org/" rel="nofollow" target="_blank"&gt;&lt;span style="color:purple"&gt;www.uspshouston.org&lt;/span&gt;&lt;/a&gt;. Follow directions on the page. See attached .pdf.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;SEABADGE 2015:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Also looking at a Seabadge course at SSBG in November of 2015. No details yet.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;ALLIANCES ALONG THE TEXAS COAST:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; Art Mowad was contacted by a gentleman from Newport California who has relocated down in the Padre Island area, has money to spend and would like to promote Sea Scouting. He put him in contact with TW Cook with the idea of starting with a cruising destination down in that area. The Texas coast has limited low cost or no cost harbors for long cruises and cooperation with Sea Scout Base Galveston might establish a chain of ports with facilities for Sea Scouts.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;REPORT FROM SEATTLE: &lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt;Cassie and I had just gotten back from helping with the first SEAL course given in the North West and made some new friends who are now &amp;#39;Texas Friendly.&amp;#39; Besides running a great course and having a great time, we returned with the possibility of sending lots more Texans up there to experience gorgeous islands, clear (cold) blue waters, and chilly starry August nights where the Orca&amp;#39;s and gray whales roam. Commodore Al Bruce, skipper of the SSS Propeller can take up to 16 scouts and adults on the Propeller and said he would like to line up more charters. Even with 300 or so gallons of diesel figured in, it is pretty affordable. Other Ships said they often have room on their long cruises and could take on scouts from other areas. So if you would like to leave the heat behind and sail blue waters on a future long cruise, give it some thought and let me know.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;ROUNDTABLE: &lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt;Ship 1996 had a successful long cruise and said Sea Scout Base Galveston was a great place to visit as well as tie up. Ship 24 is in need of new recruits. Skipper Freas reported that Galveston SEAL went well as did Ship 468&amp;#39;s long cruise. Ship 93 was back from participating in the reenactment of the Battle of Mobile Bay. Ship 1659 hosted visiting Scottish Venturers for a day of boating fun. Ship 208&amp;#39;s long cruise was up on Canyon Lake getting SCUBA certificates for the crew.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;EXECUTIVE&amp;#39;S MINUTE: &lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt;Nathan was standing in for Tony who will be recovering from back surgery for a few months. He will be splitting Sea Scout oversight with Mary and Kevin. Council Service Days as part of the SHAC 100 Year Anniversary is coming up and the BSA will be transitioning to &amp;ldquo;Seamless Recharter&amp;rdquo; which I got the impression meant you had to have your act together the first time.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;COMMODORE&amp;#39;S COMMENTS:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; I mentioned that some concerning issues on the recent SEAL cruise in Puget Sound were the lack of mental math skills with the youth and their inability to relate features on the chart to what was ahead of and around us.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;font face="verdana, sans-serif" size="3"&gt;&lt;b&gt;&lt;span style="color:black"&gt;MEETING ADJOURNED:&lt;/span&gt;&lt;/b&gt;&lt;span style="color:black"&gt; At 2122 until 1930, September 17 at the council office.&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0.5in 6pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif" size="3"&gt;&amp;ldquo;&lt;i&gt;Life is like riding a bicycle. In order to keep your balance, you must keep moving.&amp;rdquo; - Albert Einstein&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p style="text-align:center"&gt;&#13;
+	&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p style="margin:0in 0.5in 0.0001pt;background-image:initial;background-repeat:initial"&gt;&#13;
+	&lt;span style="color:black"&gt;&lt;font face="verdana, sans-serif" size="3"&gt;&amp;ldquo;&lt;i&gt;If the path before you is clear, you&amp;#39;re probably on someone else&amp;#39;s&amp;rdquo; Anon.&lt;/i&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&#13;
+</content>
   </entry>
 </feed>
 

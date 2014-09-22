@@ -522,8 +522,10 @@ li.topmenu a:hover {
 
 #welcome {
 	width:			938px;
-	height:			327px;
-	background:		transparent url('../images/welcome-bg.png') top left no-repeat;
+/* WBRASWELL 20140922: allow for homepage sidebar image height  */
+	height:			750px; 
+/*	height:			327px; */
+/*	background:		transparent url('../images/welcome-bg.png') top left no-repeat; */
 	margin:			0 auto;
 	padding:		0 21px 0 21px;
 }

@@ -5,8 +5,6 @@
 
 <div id="welcome">
 
-	<img src="[% c.uri_for( '/static', 'images', elements.video_url ) %]" class="welcome-image" alt="Welcome to ShinyCMS" />
-
 	<h2>	[% elements.heading1 | html %]
 	</h2>
 
@@ -17,7 +15,7 @@
 
 	[%- news_posts = c.controller( 'News' ).get_posts( c, 1, 5 ) %]
 	[%- IF news_posts %]
-	<h3>	News
+	<h3>	LATEST NEWS
 	</h3>
 	<ul>
 	[%- FOREACH news_post IN news_posts %]
@@ -33,7 +31,7 @@
 	<div class="homepage-panel">
 		[%- blog_posts = c.controller( 'Blog' ).get_posts( c, 1, 5 ) %]
 		[%- IF blog_posts %]
-		<h3>	Blog
+		<h3>	SHIP'S LOG
 		</h3>
 		<ul>
 		[%- FOREACH blog_post IN blog_posts %]
