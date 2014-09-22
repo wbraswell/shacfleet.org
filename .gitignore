@@ -1,8 +1,1 @@
-*~
-Makefile
-META.yml
-blib
-inc
-
-# do not publish MySQL password
-shinycms.conf
+./modified/.gitignore
