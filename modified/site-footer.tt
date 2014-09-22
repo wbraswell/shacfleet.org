@@ -1,0 +1,51 @@
+<div id="footer">
+	
+    <!-- WBRASWELL 20140922: Add license and attribution links to footer -->
+	<div id="footer-left">	
+		<p>
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The SHAC Sea Scouts Website</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"><a href="http://williambraswell.com">William Braswell</a></span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.  
+<br>
+Powered by <a href="http://shinycms.org/">ShinyCMS</a> on <a href="http://catalystframework.org">Catalyst</a> on <a href="http://kernel.org">L</a><a href="http://apache.org">A</a><a href="http://mysql.com">M</a><a href="http://perl.org">P</a> thanks to <a href="http://ubuntu.com">Ubuntu </a><a href="http://gnu.org">GNU/Linux</a>, web design by <a href="http://autoparallel.com">APTech</a>, code hosted on <a href="https://github.com/wbraswell/shac_seascouts_website">GitHub</a>. 
+        </p>
+		<p>
+			[%- IF c.user_exists %]
+			You are logged in as <a href="[% c.uri_for( '/user' ) %]">[% ( c.user.display_name || c.user.username ) | html %]</a>. <a href="[% c.uri_for( '/user', 'edit' ) %]">Click here</a> to edit your profile, or here to <a href="[% c.uri_for( '/user', 'logout' ) %]">logout</a>.
+			[%- ELSE %]
+			<a href="[% c.uri_for( '/user', 'login' ) %]">Login</a> or <a href="[% c.uri_for( '/user', 'register' ) %]">register an account.</a></li>
+			[%- END %]
+			
+			&nbsp;
+			
+			View <a href="[% c.uri_for( '/sitemap' ) %]">sitemap</a>.
+			
+			&nbsp;
+			
+		[%- IF meta.mobile_override_on 
+			OR ( meta.mobile_device AND NOT meta.mobile_override_off ) %]
+			Switch to <a href="/mobile-override/off">full site</a>.
+		[%- ELSE %]
+			Switch to <a href="/mobile-override/on">low-graphics</a> version.
+			
+			&nbsp;
+			
+			Adjust font size: 
+			<span class="small">
+			<a href="/switch-style/default">A</a> 
+			</span>
+			<a href="/switch-style/larger" >A</a> 
+			<span class="big">
+			<a href="/switch-style/largest">A</a> 
+			</span>
+		[%- END %]
+		</p>
+	</div>
+	
+	<div id="footer-right">
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/static/images/valid-css-blue.png" alt="Valid CSS"></a>
+		<a href="http://feedvalidator.org/check"><img src="/static/images/valid-atom.png" alt="Valid Atom"></a>
+		<a href="http://validator.w3.org/check?uri=referer"><img src="/static/images/html5-white-64x64.png" alt="Valid HTML5"></a>
+	</div>
+	
+	<div class="clearfix">&nbsp;</div>
+
+</div>
