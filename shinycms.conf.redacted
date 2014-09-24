@@ -1,8 +1,8 @@
 name   ShinyCMS
 author Will Braswell <william.braswell.bsa@nym.hush.com>
 
-site_name    SHAC_SeaScouts
-domain       shacseascouts.org
+site_name    SHAC Fleet
+domain       shacfleet.org
 email_from   wbraswell@cloud-web0.autoparallel.com
 
 upload_dir   cms-uploads
@@ -146,8 +146,8 @@ recaptcha_private_key 6Led1LwSAAAAAI9EMK3XSFUuXHd29drsJD-Ha68P
 <Model::DB>
 	schema_class ShinyCMS::Schema
 	<connect_info>
-		dsn        dbi:mysql:shac_seascouts_website
-		user       shac_seascouts
+		dsn        dbi:mysql:shacfleet_org
+		user       shacfleet_user
 		password   REDACTED
 		AutoCommit 1
 		# Quote SQL in case of reserved words (notably, 'user' and 'order' tables)
