@@ -67,7 +67,7 @@
 	<div class="homepage-panel">
 
 		[%- most_recent = c.controller( 'Forums' ).most_recent_comment( c ) %]
-		<h3>	Forum
+		<h3>	Forums
 		</h3>
 		<p>
 			<a href="[% c.uri_for( '/forums', most_recent.post.forum.section.url_name, most_recent.post.forum.url_name, most_recent.post.id, most_recent.post.url_title ) %]#comment-[% most_recent.id %]">[% most_recent.title || most_recent.body | remove( '<.+?>' ) | truncate | html %]</a> by [% IF most_recent.author_type == 'Site User' %]<a href="[% c.uri_for( '/user', most_recent.author.username ) %]">[% most_recent.author.display_name || most_recent.author.username %]</a>[% ELSIF most_recent.author_type == 'Unverified' %][% most_recent.author_name %][% ELSE %]Anonymous[% END %] at [% most_recent.posted.strftime('%H:%M') %] on [% most_recent.posted.day %] [% most_recent.posted.month_abbr %] [% most_recent.posted.year %]
