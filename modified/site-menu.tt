@@ -55,6 +55,7 @@
 		</div>
 	</li>
 
+<!-- DISABLE SHIP'S STORE
 	<li class="topmenu">
 		<a href="/shop"
 		[%- IF controller == 'Shop' OR meta.menu_selected == 'Shop' %] class="selected"[% END %]>Ship's Store</a>
@@ -69,6 +70,7 @@
 		</ul>
 		</div>		
 	</li>
+-->
 	
 </ul>
 
