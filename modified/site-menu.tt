@@ -42,6 +42,7 @@
 		[%- IF controller == 'Forums' OR meta.menu_selected == 'Forums' %] class="selected"[% END %]>Forums</a>
 	</li>
 
+<!-- DISABLE EVENTS PAGE, EVENTS SUMMARY ON HOME PAGE REMAINS
 	<li class="topmenu">
 		<a href="/events"
 		[%- IF controller == 'Events' OR meta.menu_selected == 'Events' %] class="selected"[% END %] >Events</a>
@@ -54,6 +55,7 @@
 		</ul>
 		</div>
 	</li>
+-->
 
 <!-- DISABLE SHIP'S STORE
 	<li class="topmenu">

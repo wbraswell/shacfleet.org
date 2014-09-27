@@ -57,7 +57,7 @@
 		[%- content %]
 
 <!-- WBRASWELL 20140922: add montage image just above page footer on all pages -->
-		<div id="footer_montage">
+		<div id="footer_montage" align="center">
 			<a href="/"><img src="/static/cms-uploads/images/cjohnson_2014-footer_montage.png" alt="[% meta.title || 'footer_montage' %]"></a>
 		</div>
 	
