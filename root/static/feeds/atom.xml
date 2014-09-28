@@ -3,12 +3,12 @@
   <id>tag:shacfleet.org,2010:blog</id>
   <link rel="self" href="http://shacfleet.org/static/feeds/atom.xml" type="application/atom+xml"/>
   <link rel="alternate" href="http://shacfleet.org/blog" type="text/html"/>
-  <updated>2014-09-27T10:52:08Z</updated>
+  <updated>2014-09-28T03:13:16Z</updated>
   <title>SHAC Fleet</title>
   <subtitle>Recent blog posts from SHAC Fleet</subtitle>
   <entry>
-    <id>tag:shacfleet.org,2010:blog:2014:8:fleet_meeting_minute_20140820</id>
-    <link rel="alternate" href="http://shacfleet.org/blog/2014/8/fleet_meeting_minute_20140820" type="text/html"/>
+    <id>tag:shacfleet.org,2010:blog:2014:8:fleet_meeting_minutes_20140820</id>
+    <link rel="alternate" href="http://shacfleet.org/blog/2014/8/fleet_meeting_minutes_20140820" type="text/html"/>
     <author>
       <name>Cassie Johnson</name>
     </author>

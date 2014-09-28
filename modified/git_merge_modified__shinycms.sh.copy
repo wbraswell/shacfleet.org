@@ -29,6 +29,8 @@ cp -a $SHINY_DIR $MY_DIR
 cd $MY_DIR
 rm -Rf .git
 cp -a $BACKUP_DIR/.git ./
+cp -a $BACKUP_DIR/modified ./
+cp -a $BACKUP_DIR/backup ./
 
 # MERGE MODIFIED FILES
 
