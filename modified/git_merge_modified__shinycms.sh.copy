@@ -106,3 +106,7 @@ cd root/events
 rm view_events.tt
 ln -s ../../modified/view_events.tt ./view_events.tt
 
+cd $MY_DIR
+cd root/events
+rm view_event.tt
+ln -s ../../modified/view_event.tt ./view_event.tt

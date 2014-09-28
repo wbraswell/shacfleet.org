@@ -7,9 +7,9 @@
 	Events starting in [% view_date.month_name %] [% view_date.year %]
 </h3>
 [%- ELSE %]
-<h3>
-	Forthcoming Events
-</h3>
+<h3><div style="text-align: center;">
+	Upcoming Events
+</div></h3>
 [%- END %]
 
 [% IF events.size > 0 %]
@@ -30,13 +30,13 @@
 	</tr>
 [%- FOREACH event IN events %]
 	<tr>
-<!--- WBRASWELL 20140927 2014.270: change td class to "td_event" to preserve visible table borders -->
+<!--- WBRASWELL 20140927 2014.270: change td class to "td_event" to preserve visible table borders, increase width of Date column, add Archive link -->
 		<td class="td_event">
 			[%- IF event.image %]
 			<img width="100px" src="[% c.uri_for( '/static', upload_dir, 'event-images', event.image ) %]" alt="">
 			[%- END %]
 		</td>
-		<td class="td_event">
+		<td class="td_event" style="width: 20%;">
 			[%- IF event.start_date == event.end_date %]
 			[% event.start_date.day %] [% event.start_date.month_abbr %] [% event.start_date.year %]
 			<br>[% event.start_date.strftime('%H:%M') %] to [%event.end_date.strftime('%H:%M') %]
@@ -66,6 +66,10 @@
 	</tr>
 [%- END %]
 </table>
+<h3><div style="text-align: center;">
+<a href="[% c.uri_for( '/events', now.year, now.month )  %]">Event Archives</a>
+</div></h3>
+<br>
 [%- ELSE %]
 <p>
 	No events [% IF view_date %]starting in this month[% ELSE %]to display[% END %].

@@ -142,6 +142,7 @@ body, select, input, textarea {
 
 h1,h2,h3,h4,h5,h6 {
 	font-weight:		bold;
+    text-align:         center;
 /*
 	text-rendering:		optimizeLegibility;
 */
@@ -488,7 +489,8 @@ li.topmenu a:hover {
 	display: 		none;
 	z-index:		100;
 	background:		#666666;
-	width:			200px;
+/* WBRASWELL 20140927 2014.270: increase width of main menu drop-downs to accomodate "Minto Rendezvous 2014" */
+	width:			230px;
 }
 
 .last  {
@@ -1672,7 +1674,7 @@ p.label-longer {
 	margin:			20px 0 10px 0;
 }
 
-#footer .stealth {
+#footer .stealth { 
 	color:			#000000;
 	text-decoration:	none;
 }
