@@ -12,13 +12,15 @@ SHINY_DIR=/home/wbraswell/public_html/ShinyCMS-latest
 
 $GIT_BACKUP_COMMAND
 
+echo
+echo
 echo "ABOUT TO MERGE FILES, DID BACKUP SUCCEED???"
 echo "ABOUT TO MERGE FILES, DID BACKUP SUCCEED???"
 echo "ABOUT TO MERGE FILES, DID BACKUP SUCCEED???"
 sleep 3
 
 rm -Rf $BACKUP_DIR
-mv -a $MY_DIR $BACKUP_DIR
+mv $MY_DIR $BACKUP_DIR
 
 cd $SHINY_DIR
 git pull origin master
