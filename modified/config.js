@@ -13,7 +13,7 @@ CKEDITOR.editorConfig = function( config )
 	
 	config.forcePasteAsPlainText = 'true';
 	
-// WBRASWELL 20140921: enable appropriate WYSIWYG HTML editing tools
+// WBRASWELL 20140921 2014.264: enable appropriate WYSIWYG HTML editing tools
 
 	config.toolbar_Custom = [
 //		['Source','-','Bold','Italic','Strike'],

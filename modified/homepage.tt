@@ -3,7 +3,7 @@
 	meta.menu_selected = page.name;
 %]
 
-<!-- WBRASWELL 20140922: format homepage -->
+<!-- WBRASWELL 20140922 2014.265: format homepage -->
 
 <div id="welcome">
 
@@ -13,9 +13,12 @@
 	[% elements.html1 %]
 </div>
 
-<div class="homepage-panel-super">
+<!-- WBRASWELL 20140927 2014.270: add tables here to allow homepage-panel classes to center on page -->
+<table style="width:100%">
+<tr>
+<td style="width: 50%;"></td>
+<td>
     <div class="homepage-panel">
-
 	    [%- news_posts = c.controller( 'News' ).get_posts( c, 1, 5 ) %]
     	[%- IF news_posts %]
     	<h3>	LATEST NEWS
@@ -27,9 +30,10 @@
     	[%- END %]
     	</ul>
     	[%- END %]
-	
     </div>
+</td>
 
+<td>
     <div class="homepage-panel">
 		[%- blog_posts = c.controller( 'Blog' ).get_posts( c, 1, 5 ) %]
 		[%- IF blog_posts %]
@@ -49,7 +53,13 @@
 		</ul>
 		[%- END %]
 	</div>
+</td>
+<td style="width: 50%;"></td>
+</tr>
 
+<tr>
+<td style="width: 50%;"></td>
+<td>
     <div class="homepage-panel">
 		[%- events = c.controller( 'Events' ).get_events( c, 5 ) %]
 		[%- IF events %]
@@ -63,9 +73,10 @@
 		</ul>
 		[%- END %]
 	</div>
+</td>
 
+<td>
     <div class="homepage-panel">
-
 		[%- most_recent = c.controller( 'Forums' ).most_recent_comment( c ) %]
 		<h3>	Forums
 		</h3>
@@ -73,4 +84,7 @@
 			<a href="[% c.uri_for( '/forums', most_recent.post.forum.section.url_name, most_recent.post.forum.url_name, most_recent.post.id, most_recent.post.url_title ) %]#comment-[% most_recent.id %]">[% most_recent.title || most_recent.body | remove( '<.+?>' ) | truncate | html %]</a> by [% IF most_recent.author_type == 'Site User' %]<a href="[% c.uri_for( '/user', most_recent.author.username ) %]">[% most_recent.author.display_name || most_recent.author.username %]</a>[% ELSIF most_recent.author_type == 'Unverified' %][% most_recent.author_name %][% ELSE %]Anonymous[% END %] at [% most_recent.posted.strftime('%H:%M') %] on [% most_recent.posted.day %] [% most_recent.posted.month_abbr %] [% most_recent.posted.year %]
 		</p>
 	</div>
-</div>
+</td>
+<td style="width: 50%;"></td>
+</tr>
+</table>

@@ -43,7 +43,7 @@
 			[% shared_content.site_tagline %]
 		</div>
 
-<!-- WBRASWELL 20140922: add First Class Anchor in header aligned with tagline on all pages -->
+<!-- WBRASWELL 20140922 2014.265: add First Class Anchor in header aligned with tagline on all pages -->
 		<div id="first_class_anchor">
 			<a href="/"><img src="/static/cms-uploads/images/first_class_anchor_transparent_scaled.png" alt="[% meta.title || 'first_class_anchor' %]"></a>
 		</div>
@@ -56,7 +56,7 @@
 		
 		[%- content %]
 
-<!-- WBRASWELL 20140922: add montage image just above page footer on all pages -->
+<!-- WBRASWELL 20140922 2014.265: add montage image just above page footer on all pages -->
 		<div id="footer_montage" align="center">
 			<a href="/"><img src="/static/cms-uploads/images/cjohnson_2014-footer_montage.png" alt="[% meta.title || 'footer_montage' %]"></a>
 		</div>

@@ -1,6 +1,6 @@
 <div id="footer">
 	
-    <!-- WBRASWELL 20140927: Remove license, attribution links, and validation buttons from footer -->
+    <!-- WBRASWELL 20140927 2014.270: Remove license, attribution links, and validation buttons from footer -->
 	<div id="footer-left">	
 		<p>
 			[%- IF c.user_exists %]
