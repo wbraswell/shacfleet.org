@@ -5,6 +5,8 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 
 CKEDITOR.editorConfig = function( config )
 {
+    config.extraPlugins = 'showborders';
+
 	// Define changes to default configuration here.
 	// http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html
 	

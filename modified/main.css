@@ -27,7 +27,9 @@ small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+/* WBRASWELL 20140930 2014.273: do not force all tables to have invisible borders, 
+    allow user to set in CKEditor */
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
 article, aside, figure, footer, header, 
 hgroup, menu, nav, section, menu,
 time, mark, audio, video {
@@ -185,6 +187,12 @@ strong, th {
 
 td, td img {
 	vertical-align:		top;
+
+/* WBRASWELL 20140930 2014.273: enable visible borders for all tables
+	padding:		5px;
+	margin:			0;
+	border:			1px solid #cccccc; 
+*/
 } 
 
 sub {
