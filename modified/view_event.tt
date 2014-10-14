@@ -41,7 +41,8 @@
 	<a href="mailto:[% event.email | url %]">Email Organiser</a><br>
 	[%- END %]
 	[%- IF event.postcode %]
-	<a href="http://maps.google.co.uk/?q=[% event.postcode | url %]">Google Map</a><br>
+<!-- WBRASWELL 20141004 2014.277: switch from UK to US maps -->
+	<a href="http://maps.google.com/?q=[% event.postcode | url %]">Google Map</a><br>
 	[%- END %]
 </p>
 

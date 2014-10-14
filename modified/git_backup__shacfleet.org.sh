@@ -15,6 +15,7 @@ echo "DELETE PASSWORD(S) FROM CONF FILE!!!"
 sleep 2
 vi shinycms.conf.redacted
 
+cd $DIR
 git add -A
 git commit -a
 git push origin master
