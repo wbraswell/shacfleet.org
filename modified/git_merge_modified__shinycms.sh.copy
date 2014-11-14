@@ -45,52 +45,52 @@ rm README.md
 ln ./modified/README.md ./README.md  
 
 cd $MY_DIR
-rm shinycms.conf
+mv shinycms.conf shinycms.conf.orig
 ln -s ./modified/shinycms.conf ./shinycms.conf
 
 cd $MY_DIR
 cd root/static/ckeditor/
-rm config.js
+mv config.js config.js.orig
 ln -s ../../../modified/config.js ./config.js
 
 cd $MY_DIR
 cd root/pages/cms-templates/
-rm homepage.tt
+mv homepage.tt homepage.tt.orig
 ln -s ../../../modified/homepage.tt ./homepage.tt
 
 cd $MY_DIR
 cd root/static/css/
-rm main.css
+mv main.css main.css.orig
 ln -s ../../../modified/main.css ./main.css
 
 cd $MY_DIR
 cd root/
-rm site-footer.tt
+mv site-footer.tt site-footer.tt.orig
 ln -s ../modified/site-footer.tt ./site-footer.tt
 
 cd $MY_DIR
 cd root/
-rm site-wrapper.tt
+mv site-wrapper.tt site-wrapper.tt.orig
 ln -s ../modified/site-wrapper.tt ./site-wrapper.tt
 
 cd $MY_DIR
 cd root/static/
-rm -Rf cms-uploads
+mv cms-uploads cms-uploads.orig
 ln -s ../../modified/cms-uploads ./cms-uploads
 
 cd $MY_DIR
 cd root/
-rm site-menu.tt
+mv site-menu.tt site-menu.tt.orig
 ln -s ../modified/site-menu.tt ./site-menu.tt
 
 cd $MY_DIR
 cd root/
-rm offline.html
+mv offline.html offline.html.orig
 ln -s ../modified/offline.html ./offline.html
 
 cd $MY_DIR
 cd bin/
-rm external-fastcgi-server
+mv external-fastcgi-server external-fastcgi-server.orig
 ln -s ../modified/external-fastcgi-server ./external-fastcgi-server
 
 cd $MY_DIR
@@ -103,15 +103,45 @@ ln -s ../../../modified/w3c-valid-html5.png ./w3c-valid-html5.png
 
 cd $MY_DIR
 cd root/events
-rm view_events.tt
+mv view_events.tt view_events.tt.orig
 ln -s ../../modified/view_events.tt ./view_events.tt
 
 cd $MY_DIR
 cd root/events
-rm view_event.tt
+mv view_event.tt view_event.tt.orig
 ln -s ../../modified/view_event.tt ./view_event.tt
 
 cd $MY_DIR
 cd root/user
-rm view_user.tt
+mv view_user.tt view_user.tt.orig
 ln -s ../../modified/view_user.tt ./view_user.tt
+
+cd $MY_DIR
+cd root/admin/pages
+mv edit_page.tt edit_page.tt.orig
+ln -s ../../../modified/edit_page.tt ./edit_page.tt
+
+cd $MY_DIR
+cd root/admin/news
+mv edit_item.tt edit_item.tt.orig
+ln -s ../../../modified/edit_item.tt ./edit_item.tt
+
+cd $MY_DIR
+cd root/admin/blog
+mv edit_post.tt edit_post.tt.orig
+ln -s ../../../modified/edit_post.tt ./edit_post.tt
+
+cd $MY_DIR
+cd root/admin/events
+mv edit_event.tt edit_event.tt.orig
+ln -s ../../../modified/edit_event.tt ./edit_event.tt
+
+cd $MY_DIR
+cd root/admin/shop
+mv edit_item.tt edit_item.tt.orig
+ln -s ../../../modified/edit_item.tt.shop ./edit_item.tt
+
+cd $MY_DIR
+cd root/admin/newsletters
+mv edit_newsletter.tt edit_newsletter.tt.orig
+ln -s ../../../modified/edit_newsletter.tt ./edit_newsletter.tt
