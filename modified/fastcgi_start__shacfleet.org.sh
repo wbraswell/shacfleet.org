@@ -1,3 +1,6 @@
-#!/bin/sh
-cd /home/wbraswell/public_html/shacfleet.org-latest
-/home/wbraswell/public_html/shacfleet.org-latest/bin/external-fastcgi-server
+#!/bin/bash
+export HOME=/home/wbraswell
+SITE=$HOME/public_html/shacfleet.org-latest
+cd $SITE
+eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
+$SITE/bin/external-fastcgi-server
